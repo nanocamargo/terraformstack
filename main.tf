@@ -5,3 +5,9 @@ compartment_id = var.compartment_id
   freeform_tags  = var.freeform_tags
   defined_tags   = var.defined_tags
 }
+
+variable "tenancy_ocid" {}
+variable "user_ocid" {}
+variable "fingerprint" {}
+variable "private_key" {}
+variable "region" {}
