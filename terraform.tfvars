@@ -3,9 +3,9 @@
 
 # provider identity parameters
 
-api_fingerprint = "3c:da:9e:c6:54:d2:83:7e:ab:54:a4:9a:37:61:83:43"
+fingerprint = "3c:da:9e:c6:54:d2:83:7e:ab:54:a4:9a:37:61:83:43"
 
-api_private_key_path = "C:/Users/david camargo/Desktop/pruebas_terraform2/david.camargo.velandia@oracle.com-2025-06-11T20_02_18.646Z.pem"
+private_key = "C:/Users/david camargo/Desktop/pruebas_terraform2/david.camargo.velandia@oracle.com-2025-06-11T20_02_18.646Z.pem"
 
 region = "ca-toronto-1"
 

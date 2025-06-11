@@ -2,13 +2,13 @@
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl
 
 # provider identity parameters
-variable "api_fingerprint" {
+variable "fingerprint" {
   description = "fingerprint of oci api private key"
   type        = string
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc
 }
 
-variable "api_private_key_path" {
+variable "private_key" {
   description = "path to oci api private key used"
   type        = string
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc
