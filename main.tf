@@ -7,7 +7,7 @@ provider "oci" {
 }
 
 module "vcn_pruebas" {
-  source         = "./modules/VCN"
+  source         = "./modules/vcn"
   cidr_block     = "10.0.0.0/16"
   compartment_id = var.compartment_id
   display_name   = "VCN-Pruebas"
