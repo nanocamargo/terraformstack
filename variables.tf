@@ -28,7 +28,7 @@ variable "tenancy_ocid" {
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc
 }
 
-variable "user_id" {
+variable "user_ocid" {
   description = "id of user that terraform will use to create the resources"
   type        = string
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc
