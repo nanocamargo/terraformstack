@@ -22,7 +22,7 @@ variable "region" {
   # List of regions: https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm#ServiceAvailabilityAcrossRegions
 }
 
-variable "tenancy_id" {
+variable "tenancy_ocid" {
   description = "tenancy id where to create the sources"
   type        = string
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc

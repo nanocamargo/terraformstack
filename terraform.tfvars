@@ -38,7 +38,7 @@ EOT
 
 region = "ca-toronto-1"
 
-tenancy_id = "ocid1.tenancy.oc1..aaaaaaaahrtcdvcu6zxtj43cbavvaglgdrziddsyw5sep2xmlsbjebaegx7q"
+tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaahrtcdvcu6zxtj43cbavvaglgdrziddsyw5sep2xmlsbjebaegx7q"
 
 user_id = "ocid1.user.oc1..aaaaaaaazjdrzk22vd35js6medrggml442dkzpezpbtnvsazusrtaws2k33a"
 
