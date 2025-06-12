@@ -146,3 +146,7 @@ variable "internet_gateway_route_rules" {
   type        = list(map(string))
   default     = null
 }
+
+variable "admin_password" {
+  sensitive = true
+}

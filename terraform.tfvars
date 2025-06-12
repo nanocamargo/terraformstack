@@ -51,3 +51,5 @@ internet_gateway_display_name = "igw"
 nat_gateway_display_name = "ngw"
 service_gateway_display_name = "sgw"
 attached_drg_id = null
+
+admin_password = "MySecurePass123!"
