@@ -10,7 +10,7 @@ variable "fingerprint" {
 
 
 
-variable "private_key_path" {
+variable "private_key" {
   type        = string
   description = "Ruta local al archivo PEM"
 }
