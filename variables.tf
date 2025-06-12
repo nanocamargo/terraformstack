@@ -8,7 +8,9 @@ variable "fingerprint" {
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc
 }
 
-variable "private_key" {
+
+
+variable "private_key_path" {
   description = "path to oci api private key used"
   type        = string
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc

@@ -2,12 +2,12 @@ provider "oci" {
   tenancy_ocid     = var.tenancy_id
   user_ocid        = var.user_id
   fingerprint      = var.fingerprint
-  private_key      = var.private_key  
+  private_key      = var.private_key_path  
   region           = var.region
 }
 
 module "vcn_pruebas" {
-  source         = "./modules/vcn"
+  source         = "./modules/VCN"
   cidr_block     = "10.0.0.0/16"
   compartment_id = var.compartment_id
   display_name   = "VCN-Pruebas"
