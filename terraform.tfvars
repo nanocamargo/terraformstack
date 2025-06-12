@@ -34,7 +34,6 @@ mtzF9UxHERuJvwyj2DErRLPyYeR6o5IN73NiOW5vDu9SjFQeGIiCkpUURw68HaKl
 XDzqyz1AITk8leIWItj4eN4K7DWdlfX1qLJStz4JRrIvDmmsDViLCohQPyKejwe3
 3KFIpkxMdOwDP9tgYHy0TuA=
 -----END PRIVATE KEY-----
-OCI_API_KEY
 EOT
 
 region = "ca-toronto-1"
