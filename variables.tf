@@ -8,7 +8,13 @@ variable "fingerprint" {
   # no default value, asking user to explicitly set this variable's value. see codingconventions.adoc
 }
 
-
+variable "tenancy_ocid" {}
+variable "user_ocid" {}
+variable "fingerprint" {}
+variable "region" {}
+variable "private_key" {
+  sensitive = true
+}
 
 variable "private_key" {
   type        = string
