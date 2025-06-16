@@ -7,3 +7,10 @@ resource "oci_database_autonomous_database" "adb" {
   display_name             = var.display_name
   db_workload              = var.db_workload
 }
+provider "oci" {
+  tenancy_ocid     = var.tenancy_ocid
+  user_ocid        = var.user_ocid
+  fingerprint      = var.fingerprint
+  private_key = var.private_key
+  region           = var.region
+}
