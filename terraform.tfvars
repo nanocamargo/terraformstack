@@ -36,6 +36,7 @@ XDzqyz1AITk8leIWItj4eN4K7DWdlfX1qLJStz4JRrIvDmmsDViLCohQPyKejwe3
 -----END PRIVATE KEY-----
 EOT
 
+private_key_path = "C:/Users/david camargo/Desktop/pruebas_terraform2"
 region = "ca-toronto-1"
 
 tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaahrtcdvcu6zxtj43cbavvaglgdrziddsyw5sep2xmlsbjebaegx7q"

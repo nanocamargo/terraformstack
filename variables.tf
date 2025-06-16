@@ -13,6 +13,10 @@ variable "private_key" {
   type        = string
   description = "Ruta local al archivo PEM"
 }
+variable "private_key_path" {
+  type        = string
+  description = "Ruta local al archivo PEM"
+}
 
 variable "region" {
   description = "the oci region where resources will be created"
